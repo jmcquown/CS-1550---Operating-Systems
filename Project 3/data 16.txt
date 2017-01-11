@@ -1,0 +1,34 @@
+opt - gcc.trace
+Number of frames: 	16
+Total memory accesses:  1000000
+Total page faults: 	80307
+Total writes to disk: 	11316
+opt - bzip.trace
+Number of frames: 	16
+Total memory accesses:  1000000
+Total page faults: 	2427
+Total writes to disk: 	847
+
+clock - gcc.trace
+Number of frames: 	16
+Total memory accesses:  1000000
+Total page faults: 	121682
+Total writes to disk: 	16376
+clock - bzip.trace
+Number of frames: 	16
+Total memory accesses:  1000000
+Total page faults: 	3468
+Total writes to disk: 	1128
+
+nru - gcc.trace 20
+Number of frames: 	16
+Total memory accesses:  1000000
+Total page faults: 	150619
+Total writes to disk: 	12587
+nru - bzip.trace 20
+Number of frames: 	16
+Total memory accesses:  1000000
+Total page faults: 	40404
+Total writes to disk: 	4409
+
+
